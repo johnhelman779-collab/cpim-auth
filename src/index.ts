@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/health", (_req, res) => {
-  res.json({ service: "cpim-auth", status: "ok" });
+  res.json({ service: "cpim-auth", status: "ok", version: "0.1.1" });
 });
 
 app.use(authRoutes);

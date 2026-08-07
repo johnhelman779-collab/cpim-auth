@@ -25,3 +25,11 @@ Listens on `http://localhost:3001`.
 
 - `PORT` (default `3001`)
 - `JWT_SECRET` (default `cpim-dev-secret`)
+
+## Status
+
+v0.1.1 — active development (JWT login / validate).
+
+## Roadmap
+
+See [ROADMAP.md](ROADMAP.md) for this service’s 3-year track.
